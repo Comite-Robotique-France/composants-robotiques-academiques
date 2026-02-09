@@ -1,0 +1,17 @@
+# Composants Robotiques Académiques
+
+Ce répertoire présente une liste de composants robotiques issus de laboratoires de recherche français. Il s'agit d'une action pilotée par le [Comité Robotique France](https://c-robotique-france2030.org/) qui a pour mission d'accélérer la transformation des produits de la recherche en valeur dans les entreprises du champ de la robotique.
+
+## Navigation
+
+| Composant | Résumé | Détails | Mots Clés | Laboratoires |
+|-----------|--------|---------|-----------|--------------|
+| [OV²SLAM](https://github.com/ov2slam/ov2slam) | Un algorithme de SLAM visuel temps réel pour caméras stéréo ou monoculaires | <details><summary>Voir les détails</summary>OV²SLAM est un algorithme de SLAM visuel (localisation et cartographie simultanées) temps réel pour caméras stéréo ou monoculaires. Il permet de localiser précisément un drone, robot ou tout autre dispositif mobile sans connaissance a priori ni instrumentation de l’environnement en intérieur ou en extérieur, en absence ou en complémentarité du GNSS.</details> | SLAM, Perception, Navigation | Onera |
+
+## Environnements de développement
+
+| Composant | Résumé | Détails | Mots Clés | Laboratoires |
+|-----------|--------|---------|-----------|--------------|
+| [telekyb3](https://git.openrobots.org/projects/telekyb3/pages/index) | Framework logiciel et matériel pour le développement de robots aériens multirotors (UAVs) | <details><summary>Voir les détails</summary>telekyb3 est un ensemble de briques logicielles et matérielles formant une architecture ouverte et hautement modulaire, dédiée au contrôle de robots aériens multirotors. Il comprend à la fois des modules d’interfaçage avec les capteurs et les actionneurs, ainsi que des algorithmes de haut niveau pour la commande, la navigation et l’estimation d’état d’un seul drone ou d’une flottille. </details> | Drones multi rotors, Contrôle commande | CNRS-LAAS, Inria, Irisa |
+| [OpenSOT](https://github.com/ADVRHumanoids/OpenSoT) | Résolution de problèmes de Programmation Quadratique et Linéaire (QP/LP) en commande | <details><summary>Voir les détails</summary>OpenSoT est une bibliothèque C++ dédiée à l’écriture et la résolution de problèmes de Programmation Quadratique et Linéaire (QP/LP) en commande, avec un accent sur les applications robotiques et notamment humanoïde (cinématique inverse différentielle, dynamique inverse, répartition des forces de contact...). Elle permet le contrôle corpscomplet de robots soumis à des contraintes linéaires.</details> | QP/LP, Contrôle corps-complet | Inria-Hucebot |
+| [MC_RTC](https://github.com/jrl-umi3218/mc_rtc) | Un framework de contrôle robotique temps réel | <details><summary>Voir les détails</summary>MC_RTC (Multi-Contact Real Time Controller) est un framework de contrôle robotique temps réel pour développer des contrôleurs complexes sur robots humanoïdes, manipulateurs et systèmes multi-robots. Son architecture modulaire intègre GUI client/serveur, machines à états finis (FSM), contrôle par optimisation quadratique (QP), visualisation, logging et debugging. Compatible simulateurs et robots réels, mc_rtc facilite la transition prototypage-industrie via son approche "écrivez une fois, exécutez partout", son API C++/Python extensible et ses composants configurables en YAML.</details> | Contrôle robotique temps réel, optimisation quadratique (QP), multicontacts | CNRS, LIRMM |
