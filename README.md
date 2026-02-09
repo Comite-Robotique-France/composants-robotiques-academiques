@@ -33,7 +33,7 @@ Ce répertoire présente une liste de composants robotiques issus de laboratoire
 | [PyCapacity](https://auctus-team.github.io/pycapacity/) | Simulation des capacités physiques | <details><summary>Voir les détails</summary>PyCapacity est une bibliothèque Python permettant d’évaluer les capacités physiques des robots et des humains à l’aide de polytopes et d’ellipsoïdes. Elle offre un cadre simple et efficace, facilement intégrable avec les bibliothèques standards de robotique et de biomécanique. Grâce à ses algorithmes de pointe, elle permet un calcul en quelques millisecondes, rendant possible une utilisation en ligne et interactive.</details> | analyse temps-réel, biomécanique | Inria-Auctus |
 | [Simple](https://github.com/Simple-Robotics/Simple) | Simulateur physique de nouvelle génération | <details><summary>Voir les détails</summary>Simple est un simulateur physique de nouvelle génération qui permet de régler finement l'équilibre entre précision et rapidité de la simulation. Simple offre une solution algorithmique unifiée et efficace pour le calcul des dérivées analytiques des simulateurs robotiques, permettant ainsi des gains importants en termes de vitesse de convergence des algorithmes d'apprentissage par renforcement et d'optimisation de trajectoire, notamment pour les problèmes impliquant des interactions de contact physique.</details> | dynamique du mouvement, différenciation | Inria-Willow |
 
-## Environnements de développement
+## Solveurs, Environnements de développement
 
 | Composant | Résumé | Détails | Mots Clés | Laboratoires |
 | ----------- | -------- | --------- | ----------- | -------------- |
